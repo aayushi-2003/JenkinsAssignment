@@ -32,7 +32,7 @@ pipeline {
             steps {
                 // Run Selenium tests (this assumes you have a script for running your tests)
                 // You may need to adjust this command based on your test setup
-                sh 'mvn test -Dtest=YourSeleniumTestClass'
+                sh 'mvn test -DfailIfNoTests=false'
             }
         }
     }
