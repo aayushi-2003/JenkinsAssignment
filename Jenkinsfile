@@ -3,6 +3,7 @@ pipeline {
 
     tools {
         nodejs 'NodeJS' // Name of your NodeJS installation in Jenkins
+        maven 'Maven' // Name of your Maven installation in Jenkins
     }
 
     stages {
